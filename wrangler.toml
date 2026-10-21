@@ -1,0 +1,8 @@
+name = "familjehubben-health-ingest"
+main = "health-ingest.js"
+compatibility_date = "2026-10-21"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "RECEIPT_IMAGES"
+bucket_name = "familjehubben-kvitton"
